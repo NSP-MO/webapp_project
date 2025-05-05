@@ -1,0 +1,21 @@
+{
+  "name": "projectrpl",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+      "setup": "rpl install",
+      "build": "rpl build",
+      "start": "rpl start",
+      "start:debug": "rpl start --debug",
+      "dev": "rpl dev",
+      "user:create": "rpl user:create",
+      "user:changePassword": "rpl user:changePassword"
+  },
+  "dependencies": {
+    "@rpl/rpl": "^1.2.2"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
